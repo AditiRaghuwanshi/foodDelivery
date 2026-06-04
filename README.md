@@ -6,7 +6,7 @@ A full-stack order management feature for a food delivery app built with Next.js
 
 ## Live Demo
 
-> Hosted on Vercel: _[add your URL here after deployment]_
+> Hosted on Vercel: https://food-delivery-psi-blue.vercel.app/
 
 ---
 
@@ -256,7 +256,7 @@ A full-stack order management feature for a food delivery app built with Next.js
 
 ## Live Demo
 
-> Hosted on Vercel: _[add your URL here after deployment]_
+> Hosted on Vercel: https://food-delivery-psi-blue.vercel.app/
 
 ---
 
