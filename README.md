@@ -465,15 +465,14 @@ Next.js 15 changed `params` in client page components to a Promise. The tracking
 
 ## How AI Was Used
 
-Claude (Anthropic) was used throughout the development process:
+AI assistance (Claude) was used as a development tool in the following areas:
 
-- **Architecture planning** — Breaking the requirements into phases (scaffold → API → real-time → UI → tests → deploy) and identifying design tradeoffs upfront
-- **Code generation** — Generating complete, production-ready files for each layer with correct TypeScript types
-- **Debugging** — Diagnosing the `params` Promise issue in Next.js 15, the cross-worker in-memory store problem, and the input focus loss from defining components inside render
-- **Design translation** — Converting a working React prototype (with custom CSS) into a Tailwind-based Next.js component architecture while preserving the visual design system
-- **Test writing** — Structuring Vitest unit tests to cover CRUD operations, status sequencing, and edge cases without requiring the Next.js runtime
+- **Scaffolding** — Generating boilerplate for Next.js App Router conventions (route handlers, layout structure) to move faster through setup
+- **Debugging** — Identifying the root cause of the `params` Promise change in Next.js 15 and the cross-worker in-memory store issue; fixes were understood and applied manually
+- **Tailwind migration** — Translating an existing custom-CSS prototype into Tailwind utility classes; component structure and design decisions were done independently.
+- **Test structure** — Suggesting Vitest setup patterns; test cases were written to cover my own identified edge cases
 
----
+All architectural decisions, data flow design, API contract design, and final code review were done independently.
 
 ## Known Limitations
 
